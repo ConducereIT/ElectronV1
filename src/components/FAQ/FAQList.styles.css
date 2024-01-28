@@ -1,0 +1,23 @@
+.faq-section {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.faq-body {
+}
+
+.faq-title {
+}
+
+.faq-text {
+}
+
+.faq-footer {
+}
+
+@media screen and (max-width: 799px) {
+  .faq-section {
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+  }
+}

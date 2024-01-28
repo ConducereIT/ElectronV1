@@ -1,0 +1,20 @@
+.faq-item {
+  color: var(--albastru_deschis);
+  background: transparent;
+  border: 0;
+  text-indent: 2rem;
+}
+
+.faq-header > .accordion-button {
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.faq-header {
+  border-bottom: 1px solid var(--albastru_deschis);
+}
+
+.faq-body {
+}

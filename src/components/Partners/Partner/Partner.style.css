@@ -1,0 +1,19 @@
+.partner-img {
+  background-color: white;
+  width: 8rem;
+}
+
+.partner-card {
+  background: transparent;
+  border: 0;
+  margin: auto;
+  /* margin: 3rem; */
+}
+
+@media screen and (max-width: 799px) {
+  .partner-card {
+    align-items: center;
+    margin: 5rem;
+    /* margin: auto; */
+  }
+}

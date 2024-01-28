@@ -1,0 +1,17 @@
+.challenges-text {
+  display: flex;
+  justify-content: center;
+  color: var(--albastru_inchis);
+}
+
+@media screen and (min-width: 800px) {
+  .challenges-text {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .challenges-text {
+    flex-direction: column;
+  }
+}

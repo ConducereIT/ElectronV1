@@ -1,0 +1,13 @@
+.partners-text {
+  display: flex;
+  flex-direction: row;
+  /* margin: auto; */
+}
+
+@media screen and (max-width: 799px) {
+  .partners-text {
+    display: block;
+    left: auto;
+    right: auto;
+  }
+}

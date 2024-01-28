@@ -1,0 +1,63 @@
+:root {
+  --yellow: #f7c84b;
+  --albastru_deschis: #759ae6;
+  --alabastru_inchis: #0c1a32;
+}
+
+.main-section-footer-button {
+  margin: none;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  /* flex-direction: column;
+  position: sticky; */
+  padding: 0.7em 2.4em;
+  font-size: 1.125rem;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+  /* color: royalblue; */
+  z-index: 1;
+  /* font-family: inherit; */
+  font-weight: 500;
+  /* border: 2px solid white; */
+}
+
+.main-section-footer-button span {
+  position: absolute;
+  /* justify-content: space-between; */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.main-section-footer-button span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8%;
+  height: 500%;
+  background: var(--lightgray);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-60deg);
+  transition: all 0.3s;
+}
+
+.main-section-footer-button:hover span::before {
+  transform: translate(-50%, -50%) rotate(-90deg);
+  width: 100%;
+  /* background: royalblue; */
+}
+
+.main-section-footer-button:hover {
+  color: white;
+}
+
+.main-section-footer-button:active span::before {
+  background: #2751cd;
+}
