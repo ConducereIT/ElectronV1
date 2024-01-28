@@ -6,4 +6,5 @@ scripts:
   preFrontendDeploy: npm install && npm run build
 frontend:
   path: ./build
+  subdomain: electron.lsebucuresti.org
 packageManager: npm
